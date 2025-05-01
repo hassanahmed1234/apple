@@ -9,11 +9,10 @@
     height: 50px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;    
+    
 }
-.link{
 
-}
 ul{
     display: flex;
     list-style: none;
@@ -216,4 +215,41 @@ li img{
     font-size: larger;
     font-weight: 500;
     color: rgb(121, 121, 236);
+}
+
+
+/* thrd */
+.thrdimg{
+    margin-top: 10px;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.subdiv1{
+    display: inline-block;
+background-color: blue;
+    height: 95%;
+    width: 49%;
+    background-image: url(https://wookie.com.ua/content/images/37/zashchitnoe-steklo-spigen-sgp-screen-protector-alignmaster-glas.tr-dlya-apple-iphone-se-2-2020-iphone-8-iphone-7-84016466268282.jpg);
+    background-size: cover;
+}
+.subdiv2{
+    display: inline-block;
+    background-color: burlywood;
+    background-image: url(https://zeerawireless.com/cdn/shop/articles/Apple_s_Upcoming_iPhone_16_Pro_Max_to_Feature_Largest_Screen_Yet_86d4b519-d2c1-4d4a-b0d5-a74a2673650f_600x600_crop_center.jpg?v=1712563325);
+    background-size: cover;
+    height: 95%;
+    width: 49%;
+}
+.paradiv{
+    width: 100%;
+    height: 2000px;
+    background-color: rgb(245, 245, 247);
+    padding: 30px 150px;
+    color: gray;
+}
+ul{
+    display: inline-block;
 }
